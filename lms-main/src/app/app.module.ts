@@ -4,10 +4,12 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GenericsModule } from './generics/generics.module';
+import { LessonComponent } from './lesson/lesson.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LessonComponent
   ],
   imports: [
     BrowserModule,
